@@ -1,0 +1,168 @@
+/* Style the tab */
+.tab {
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  font-size: 1.5em;
+  float: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* ----------> Head Content <-------------*/
+
+/* Used for language button */
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.header button {
+  font-size: 1em;
+  transition: 0.3s;
+}
+
+
+/* Used Flags, P logo, Search */
+.header-objs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+/*Background Image */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%
+}
+
+/* ----------> Options Menu <-------------*/
+
+/* Used for language button */
+.freq-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.main-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#page-body h3 {
+  vertical-align: top;
+  text-align: center;
+}
+
+.text-box {
+  background-color: #F5F5F5;
+  width: 300px;
+  border: 1px solid black;
+  padding: 50px;
+  margin: 20px;
+  vertical-align: top;
+}
+
+.freq-items-box {
+  background-color: #F5F5F5;
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+  padding: 50px;
+  margin: 5px;
+}
+  
+
+
+
+
+#page-body {
+    background-color: whitesmoke;
+  }
+
+#page-body h1 {
+    font-size: 5em;
+    margin:auto;
+    line-height:100px;
+    vertical-align:middle;
+    text-align:center;
+}
+
+#page-body h2 {
+    font-size: 4em;
+    margin:auto;
+    line-height:100px;
+    vertical-align:middle;
+    text-align:center;
+}
+
+#page-body h3 {
+    font-size: 4em;
+    margin:auto;
+    line-height:100px;
+    vertical-align:middle;
+    text-align:center;
+}
+   
+
+
+#persona {
+    position:absolute;
+    text-align:center;
+}
+
+
+  .sketch-container {
+      display: flex;
+      align-items: right;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .user-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+ 
+  .persona-container {
+    /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+  }
+
+  .story-board-container {
+    /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      text-align:center;
+  }
+
+  #story-board {
+    text-align:center;
+}
+
+
